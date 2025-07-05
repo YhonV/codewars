@@ -1,0 +1,1 @@
+Funciona porque retorna el inverso aditivo del número: al poner un signo menos delante (-number), se invierte su signo. Ej: si es 5, retorna -5; 
