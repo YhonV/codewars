@@ -1,0 +1,17 @@
+--- Instruction ---
+If you can't sleep, just count sheeps!!
+
+Task:
+Given a non-negative integer, 3 for example, return a string with a murmur:
+"1 sheep...2 sheep...3 sheep..."
+
+--- result ---
+class Kata {
+  public static String countingSheep(int num) {
+    StringBuilder result = new StringBuilder();
+    for(int i = 1; i <= num; i++){
+      result.append(i + " sheep...");
+    }
+    return result.toString();
+  }
+}
